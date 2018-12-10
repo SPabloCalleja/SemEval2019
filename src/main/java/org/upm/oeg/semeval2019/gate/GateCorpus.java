@@ -148,7 +148,7 @@ public class GateCorpus {
 
             logger.error("The entity string for '" +TextInDocument+"' doesn't match in document for gold '" + GoldEntity[3]+ "' in " + document.getName()+" "+start+" "+end);
             //logger.error(GoldStringLine);
-            System.out.println(GoldEntity[0]+"\t"+(start-1)+"\t"+(end-1)+"\t"+GoldEntity[3]+"\t"+GoldEntity[4]);
+            System.out.println(GoldEntity[0]+"\t"+(start-1)+"\t"+(end-1)+"\t"+GoldEntity[3]+"\t"+GoldEntity[4]+"\t NOT MATCH");
         }
 
     }

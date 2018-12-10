@@ -20,13 +20,13 @@ public class GoldStandardLoader {
        GateHandler.initGate("resources", true, "ANNIE", "Tools"); //
        
        GateCorpus corpus= new GateCorpus();
-       String dir= "C:\\Users\\Pablo\\Documents\\NetBeansProjects\\SemEval2019\\resources\\devdata\\detectiontext";
+       String dir= "resources\\devdata\\detectiontext";
        corpus.createCorpusfromFolder(dir, "Semeval", "UTF-8");
          
         
        
        corpus.loadGoldStandardFromFile(
-               new File("C:\\Users\\Pablo\\Documents\\NetBeansProjects\\SemEval2019\\resources\\devdata\\detectionannotation\\LocationGold.txt"),
+               new File("resources\\devdata\\detectionannotation\\LocationGold.txt"),
                "Location", "Evaluation");
          
         
